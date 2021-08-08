@@ -1,0 +1,15 @@
+.home-page-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20% 0 20% 0;
+}
+
+.home-page-text {
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    width: 70%;
+}

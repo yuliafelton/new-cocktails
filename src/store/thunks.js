@@ -8,3 +8,11 @@ export const fetchCocktails = createAsyncThunk(
         return response.data;
     }
 );
+
+export const addNewCocktail = createAsyncThunk(
+    'app/addNewCocktail',
+    async (cocktail ) => {
+        const response = await axios.post('http://localhost:5000/cocktails', cocktail);
+        return response.data;
+    }
+);
