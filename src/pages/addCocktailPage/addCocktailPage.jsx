@@ -9,9 +9,7 @@ import RequiredInputForm from "../../components/addCocktailComponents/requieredI
 import RegularInputForm from "../../components/addCocktailComponents/regularInputForm/regularInputForm";
 import {makeStyles} from "@material-ui/core/styles";
 
-//TODO: this page
-
-/* const myStyle = {
+const myStyle = {
     width: '25ch',
     margin: '8px',
 };
@@ -56,6 +54,7 @@ function AddCocktailPage() {
 
     return (
         <div>
+            <h1>THIS PAGE IS UNDER DEVELOPMENT</h1>
             <h3 className="add-recipe-header">Add your own recipe</h3>
             <div>
                 <RequiredInputForm
@@ -119,6 +118,6 @@ function AddCocktailPage() {
             </Button>
         </div>
     );
-} */
+}
 
 export default AddCocktailPage;
